@@ -1,0 +1,56 @@
+/* color del formulario **/
+$azul: #36A0FF;
+$naranja: #FF8516;
+$rojo: #D61E20;
+$fuente:'Syne Mono', monospace;
+$porcentaje :100%;
+$texto:'Anton', sans-serif;
+$gris:#91B2B1;
+
+ /*fuente de la pagina **/
+* {
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+	/**fuentes para toda la web**/
+}
+ .fuente{
+	font-family:$fuente
+ }
+/** esto es del formulario **/
+.header {
+    color: $azul;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: $azul;
+}
+/** esto es para el mapa **/
+iframe {
+ max-width:$porcentaje;
+ height: auto;
+}
+/** para los textos**/
+.textos{
+	font-family: $texto;
+}
+ /** bem **/
+
+ .informacion__principal{
+     background-color: #D9DF1F;
+ }
+ .informacion__secundaria{
+     background-color: #57F906;
+ }
+ .informacion__final{
+     background-color: #E31443;
+ }
+  .PieDePagina{
+    background-color :$gris ;
+  }
+  
+  

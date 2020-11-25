@@ -1,0 +1,6 @@
+/* carusel del index */
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
